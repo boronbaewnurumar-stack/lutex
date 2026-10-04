@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лютекс — Текстиль</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">Лютекс</div>
+
+        <nav>
+          <a href="#">ГЛАВНАЯ</a>
+          <a href="#">КАТАЛОГ</a>
+          <a href="#">РАСПРОДАЖА</a>
+          <a href="#">ОТЗЫВЫ</a>
+          <a href="#">КОНТАКТЫ</a>
+        </nav>
+
+        <div class="icons">
+          <button id="cart">🛒</button>
+          <button id="heart">♡</button>
+          <button id="phone">☎️</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-block">
+      <div>
+        <div class="text">
+          <h1>
+            Дом, в котором<br />
+            уютно с любимым<br />
+            текстилем
+          </h1>
+
+          <p>
+            Постельное бельё и трикотаж из 100% хлопка<br />
+            от производителя с 20 летним опытом
+          </p>
+        </div>
+
+        <div class="products">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=500&q=80"
+            />
+
+            <span>Постельное<br />бельё</span>
+
+            <button class="arrow">↘️</button>
+          </div>
+
+          <div class="card">
+            <img
+              src="data:image/jpeg;base64,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"
+            />
+
+            <span>Трикотаж</span>
+
+            <button class="arrow">↘️</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="about">
+      <div class="years">
+        <span>20</span>
+        <small>лет</small>
+      </div>
+
+      <div class="about-text">
+        <h2>
+          Компания «Лютекс» — это российский производитель<br />
+          постельного белья и трикотажа<br />
+          с богатой историей.
+        </h2>
+
+        <p>
+          Мы используем только проверенные материалы и натуральные ткани, чтобы
+          каждое изделие радовало вас качеством, долговечностью и уютом.
+        </p>
+
+        <p>
+          Наш ассортимент включает всё — от классических комплектов до
+          современных коллекций из сатина, поплина и трикотажа.
+        </p>
+      </div>
+    </section>
+
+    <!-- Каталог -->
+    <section class="catalog">
+      <h1>УЮТНАЯ СПАЛЬНЯ</h1>
+
+      <div class="categories">
+        <button>— Поплин</button>
+        <button>— Хлопок</button>
+        <button>— Сатин</button>
+        <button>— Бязь</button>
+        <button>— Лён</button>
+      </div>
+
+      <div class="products2">
+        <!-- Товар 1 -->
+        <div class="product">
+          <img
+            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=700&q=80"
+          />
+
+          <div class="product-info">
+            <div class="name">
+              <h3>Поплин</h3>
+              <span>зима/лето</span>
+            </div>
+
+            <div class="sizes">
+              <span>1,5 сп</span>
+              <span>2 сп</span>
+              <span>евро</span>
+              <span>дуэт</span>
+
+              <div class="actions">
+                <button class="favorite">♡</button>
+                <button class="add-cart">🛒</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Товар 2 -->
+        <div class="product">
+          <img
+            src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=700&q=80"
+          />
+
+          <div class="product-info">
+            <div class="name">
+              <h3>Поплин</h3>
+              <span>зима/лето</span>
+            </div>
+
+            <div class="sizes">
+              <span>1,5 сп</span>
+              <span>2 сп</span>
+              <span>евро</span>
+              <span>дуэт</span>
+
+              <div class="actions">
+                <button class="favorite">♡</button>
+                <button class="add-cart">🛒</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Товар 3 -->
+        <div class="product">
+          <img
+            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=700&q=80"
+          />
+
+          <div class="product-info">
+            <div class="name">
+              <h3>Сатин</h3>
+              <span>однотонный</span>
+            </div>
+
+            <div class="sizes">
+              <span>1,5 сп</span>
+              <span>2 сп</span>
+              <span>евро</span>
+              <span>дуэт</span>
+
+              <div class="actions">
+                <button class="favorite">♡</button>
+                <button class="add-cart">🛒</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-back">
+      <div class="form-container">
+        <!-- Левая часть: Текст -->
+        <div class="form-info">
+          <h2>ОПТОВАЯ ЗАЯВКА</h2>
+          <p>
+            Пожалуйста, укажите контактный номер и выберите мессенджер, через
+            который вам удобно получить ответ.
+          </p>
+        </div>
+
+        <!-- Правая часть: Форма -->
+        <form id="wholesaleForm" class="form-fields">
+          <div class="input-group">
+            <input type="text" id="name" placeholder="ИМЯ" required />
+          </div>
+
+          <div class="input-group">
+            <input type="tel" id="phone" placeholder="ТЕЛЕФОН" required />
+          </div>
+
+          <div class="input-group">
+            <input type="text" id="comment" placeholder="КОММЕНТАРИЙ" />
+          </div>
+
+          <p class="agreement">
+            Даю своё согласие на обработку персональных данных
+          </p>
+
+          <button type="submit" class="submit-btn">ЗАКАЗАТЬ</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <!-- Верхняя часть футера с основным контентом -->
+      <div class="footer-top">
+        <!-- Логотип -->
+        <div class="footer-logo">
+          <a href="#">Любимтекс</a>
+        </div>
+
+        <!-- Навигационное меню -->
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Распродажа</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <!-- Блок контактов и соцсетей -->
+        <div class="footer-contacts">
+          <a href="mailto:lubim-textil@mail.ru" class="email-link"
+            >lubim-textil@mail.ru</a
+          >
+          <div class="social-icons">
+            <a href="https://vk.com" target="_blank" aria-label="ВКонтакте"
+              ><i class="fab fa-vk"></i
+            ></a>
+            <a href="https://t.me" target="_blank" aria-label="Telegram"
+              ><i class="fab fa-telegram-plane"></i
+            ></a>
+          </div>
+        </div>
+
+        <!-- Кнопка-телефон -->
+        <div class="footer-phone-block">
+          <a href="tel:+79053427061" class="phone-btn">+7 905 342-70-61</a>
+        </div>
+      </div>
+
+      <!-- Нижняя часть футера с юридическими ссылками -->
+      <div class="footer-bottom">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Пользовательское соглашение</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
